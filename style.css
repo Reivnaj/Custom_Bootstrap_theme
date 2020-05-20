@@ -4670,6 +4670,21 @@ input[type="button"].btn-block {
   display: block;
 }
 
+.footer {
+  background-color: #222;
+  position: fixed;
+  bottom: 0;
+  padding: 1.3em 0 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .navbar {
   position: relative;
   display: -webkit-box;
@@ -7229,6 +7244,10 @@ a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
   background-color: #3d8b40 !important;
+}
+
+.bg-mydark {
+  background-color: #050517 !important;
 }
 
 .bg-info {
